@@ -1,2 +1,2 @@
-CHHS GREEN Home Energy Solutions
+4240 Webmaster Project
 this includes all the code making the website(html, CSS, js)
