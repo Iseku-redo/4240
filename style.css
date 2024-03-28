@@ -1,4 +1,5 @@
 
+
 /* START OF (For the base color of text,nav, and header) */
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
@@ -115,7 +116,6 @@ margin-bottom: 10px; /* Add space between each bullet point */
     max-width: 600px;
     margin: 0 auto;
 }
-
 .faq-question {
     cursor: pointer;
     padding: 10px;
@@ -125,16 +125,14 @@ margin-bottom: 10px; /* Add space between each bullet point */
     border-radius: 5px;
     transition: background-color 0.3s ease, color 0.3s ease; /* Add transition for background-color and color */
 }
-
 .faq-answer {
     display: none;
     padding: 20px;
     background-color: #ffffff;
     border: 1px solid #333;
     border-radius: 5px;
-    transition: opacity 2s ease; /* Add transition for opacity */
+    transition: opacity .3s ease; /* Add transition for opacity */
 }
-
 .faq-answer {
 max-height: 10;
 overflow: hidden;
@@ -144,17 +142,14 @@ background-color: #ffffff;
 border: 1px solid #333;
 border-radius: 5px;
 }
-
 .faq-answer.open {
 max-height: 300px; /* Adjust the maximum height as needed */
 }
-
 /* Add hover styles for FAQ question */
 .faq-question:hover {
     background-color: #333;
     color: #fff;
 }
-
 /* Add hover styles for FAQ answer */
 .faq-question:hover + .faq-answer {
     opacity: 1;
@@ -185,3 +180,70 @@ footer {
   .footer-content a:hover {
     text-decoration: underline;
   }
+
+       /* Add these styles for the image and its container */
+       .content-wrapper {
+        display: flex;
+        align-items: normal;}
+    
+    
+    img {
+        max-width: 50%; /* Ensure the image doesn't exceed its container */
+        height: 50%; /* Automatically adjust height based on width */
+        border-radius: 50px; /* Optional: Add border-radius for a rounded look */
+        margin-left: 5% ; /* Add margin to separate the image from text */
+        margin-right: 5%;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    .toc-container {
+        display: flex;
+        align-items: flex-start;
+        height: 100vh;
+    }
+
+    .toc {
+        width: 200px; /* Set your desired width for the sidebar */
+        background-color: #f4f4f4;
+        padding: 10px;
+        position: sticky;
+        top: 0;
+        overflow-y: auto;
+    }
+
+    .toc ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .toc li {
+        margin-bottom: 10px;
+    }
+
+    .toc a {
+        text-decoration: none;
+        color: #333;
+    }
+
+    .toc a.active {
+        color: #0066cc; /* Active link color */
+        font-weight: bold;
+    }
+
+    .active-arrow {
+        position: absolute;
+        width: 10px; /* Set arrow width */
+        height: 10px; /* Set arrow height */
+        background-color: #0066cc; /* Arrow color */
+        top: 0;
+        left: 200px; /* Adjust based on sidebar width */
+        transform: translateY(-50%);
+        display: none;
+    }
+
+    .active-arrow.active {
+        display: block;
+    }
