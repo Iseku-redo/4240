@@ -12,7 +12,6 @@
             <h1>Green Home Solutions</h1>
         </header>
    </head>
-
     <nav>
         <a href="index.html">Home</a>
         <a href="information.html">Information</a>
@@ -20,8 +19,24 @@
         <a href="tax.html">Tax Rebates</a>
     </nav>
 
+    <style>
+        body{background-color: rgb(249, 251, 253);}
+    </style>
 <body>
-    <section id="information">
+    <div class="information" style=" 
+    width: 900px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    overflow: auto">
+        <style>
+            div.information {
+                margin:50px;
+                background-color: white;
+                overflow:auto;
+                display: inline-block;
+            }
+
+        </style>
         <h2>Information about Green Energy</h2>
 
         <p>Green energy refers to energy that is produced using environmentally friendly methods and sources. It is also known as renewable energy because it comes from resources that are naturally replenished.</p>
@@ -45,27 +60,58 @@
             <li>Creates Job Opportunities in the Renewable Energy Sector</li>
             <li>Minimizes Environmental Impact</li>
         </ul>
-    </section>
+            
+    </div>
 
-    <div class="faq-container">
-        <div class="faq-question" onclick="toggleAnswer(1)">What is Renewable Energy?</div> <!--When clicked it causes the box to drop down instead of the immediate opening-->
-        <div class="faq-answer" id="answer1">Renewable energy is energy that comes from resources that are naturally replenished...</div>
-
-        <div class="faq-question" onclick="toggleAnswer(2)">How does Solar Energy Work?</div>
-        <div class="faq-answer" id="answer2">Solar energy works by capturing the sun's energy and converting it into electricity...</div>
-
-        <div class="faq-question" onclick="toggleAnswer(3)">Are there Cons?</div>
-        <div class="faq-answer" id="answer3">
-            <ul>
-            <li>Solar & Wind depend on Weather Condtions</li>
-            <li>Batteries used to store green energy may have limitations in terms of capacity, efficiency, and environmental impact. </li>
-            <li>High Initial Cost</li>
-            <li>Solar & Wind Farms require Significant Land Areas (Habitat Disruption)</li>
-            <li>Lower Energy Density Compared to Fossil Fuel, This means that more land or equipment may be required to generate the same amount of energy.</li>
-        </ul>
+    <div class="windmillimage">
+        <style>
+            div.windmillimage {float: inline-end; margin:50px;}
+        </style>
+        <img src="file:///C:/Users/Dwayn/Downloads/IMG_6314.png">
     </div>
 
 
 
+
+
+<div class="faq">
+        <style>
+            div.faq{
+                margin: 50px;
+                padding-right: 100px;
+                padding-left: 200px;
+                width: 500px;
+                background-color: rgb(249, 251, 253);
+                }
+        </style>
+    <div class="faq-container">
+            <style>
+                faq-container{
+                    background-color: white;
+                }
+            </style>
+            <div class="faq-question" onclick="toggleAnswer(1)">What is Renewable Energy?</div> <!--When clicked it causes the box to drop down instead of the immediate opening-->
+            <div class="faq-answer" id="answer1">Renewable energy is energy that comes from resources that are naturally replenished...</div>
+            <div class="faq-question" onclick="toggleAnswer(2)">How does Solar Energy Work?</div>
+            <div class="faq-answer" id="answer2">Solar energy works by capturing the sun's energy and converting it into electricity...</div>
+            <div class="faq-question" onclick="toggleAnswer(3)">Are there Cons?</div>
+            <div class="faq-answer" id="answer3">
+                <ul>
+                <li>Solar &amp; Wind depend on Weather Condtions</li>
+                <li>Batteries used to store green energy may have limitations in terms of capacity, efficiency, and environmental impact. </li>
+                <li>High Initial Cost</li>
+                <li>Solar &amp; Wind Farms require Significant Land Areas (Habitat Disruption)</li>
+                <li>Lower Energy Density Compared to Fossil Fuel, This means that more land or equipment may be required to generate the same amount of energy.</li>
+            </ul>
+        </div>  
+    </div>
+</div>
+
+
+
+
+
+
+</div>
 </body>
 </html>

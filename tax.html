@@ -1,112 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">        
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
-        <!--Link to the css file-->
-        <link rel="stylesheet" href="style.css">
-        <!-- Link to the JavaScript file-->
-        <script src="java.js" defer></script>
-        <style> body {height: 2500px} </style>
-
-
-        <header>
-            <h1>Green Home Solutions</h1>
-        </header>
-    </head>
-
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="information.html">Information</a>
-        <a href="cost.html">Cost</a>
-        <a href="tax.html">Tax Rebates & Sources</a>
-    </nav>
-
-
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Home Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('background-image.jpg'); /* Change 'background-image.jpg' to your image file */
+            background-size: cover;
+            background-position: center;
+            color: #333; /* Added color to improve readability */
+        }
+        header {
+            background-color: rgba(0,112,60,0.8); /* Added opacity to the background color */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: rgba(0, 0, 0, 0.8); /* Added opacity to the background color */
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255,255,255,0.8); /* Added opacity to the background color */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #00703c;
+        }
+        p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: rgba(156, 156, 156, 0.473); /* Added opacity to the background color */
+            color: #fff;
+            text-align: center;
+            padding: 3px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+        .toc {
+            margin-bottom: 20px;
+            border-radius: 10px;
+            background-color: rgba(0,0,0,0.8); /* Semi-transparent background color */
+            padding: 10px; /* Reduced padding */
+            font-size: 14px; /* Reduced font size */
+        }
+        .toc h2 {
+            color: #fff;
+            text-align: center;
+            font-size: 18px; /* Adjusted font size */
+            margin-top: 0; /* Removed top margin */
+        }
+        .toc ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .toc li {
+            margin-bottom: 5px;
+        }
+        .toc a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .toc a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
 <body>
-    
-   
 
-    <div class="container">
-        <section id="overview">
-            <h2>Overview of Tax Rebates</h2>
-            <p>Explore federal, state, and local tax incentives for green energy practices.</p>
-            <p><a href="https://www.energy.gov/articles/clean-hydrogen-production-tax-credit-45v-resources">Clean Hydrogen Production Tax Credit Resources</a></p>
-        </section>
-    
-        <section id="types">
-            <h2>Types of Tax Rebates</h2>
-            <p>Categorize and detail tax rebates based on green energy solutions.</p>
-            <p><a href="https://www.marketwatch.com/guides/solar/solar-incentives-north-carolina/#:~:text=Property%20Tax%20Abatement%20for%20Solar%20Electric%20Systems&text=North%20Carolina%20offers%20a%20100,applies%20to%20active%20solar%20installations.">North Carolina Solar Tax Credits and Rebates</a></p>
-            <p><a href="https://www.dsireusa.org/">Database of State Incentives for Renewables & Efficiency (DSIRE)</a></p>
-            <p><a href="https://www.energy.gov/savings">Energy.gov - Tax Credits, Rebates & Savings</a></p>
-        </section>
-    
-        <section id="eligibility">
-            <h2>Eligibility Criteria</h2>
-            <p>Understand the criteria and conditions to qualify for tax rebates.</p>
-            <p><a href="https://www.ncgreenpower.org/impact/become-a-generator">NC GreenPower</a></p>
-            <p><a href="https://www.irs.gov/credits-deductions">IRS: Credits & Deductions for Individuals</a></p>
-            <p><a href="https://www.taxpolicycenter.org/briefing-book/what-are-tax-credits-and-how-do-they-differ-tax-deductions">Tax Policy Center: Tax Credits vs. Tax Deductions</a></p>
-        </section>
-    
-        <section id="application">
-            <h2>Application Process</h2>
-            <p>Learn how to apply for tax rebates and find relevant resources.</p>
-            <p><a href="https://www.irs.gov/credits-deductions/residential-clean-energy-credit">Residential Clean Energy Credit</a></p>
-            <p><a href="https://www.energystar.gov/rebate-finder">ENERGY STAR - Rebate Finder</a></p>
-            <p><a href="https://www.eere.energy.gov/buildings/energy-tax-deductions-and-energy-tax-credits">Energy.gov - Energy Tax Deductions and Credits</a></p>
-        </section>
-    
-        <section id="deadline">
-            <h2>Deadline Information</h2>
-            <p>Be aware of deadlines and the importance of timely submissions.</p>
-            <p><a href="https://www.irs.gov/businesses/small-businesses-self-employed/irs-tax-calendar-for-businesses-and-self-employed">IRS: Tax Deadlines for Businesses</a></p>
-            <p><a href="https://www.irs.gov/forms-pubs/about-publication-509">IRS Publication 509: Tax Calendars</a></p>
-            <p><a href="https://www.sba.gov/business-guide/launch-your-business/manage-your-business-finances/tax-deadlines">SBA.gov: Tax Deadlines</a></p>
-        </section>
-    
-        <section id="case-studies">
-            <h2>Case Studies</h2>
-            <p>Read success stories of individuals and businesses benefiting from tax rebates.</p>
-            <p><a href="https://www.energy.gov/eere/success-stories">Case Studies in Energy Efficiency</a></p>
-            <p><a href="https://www.utilitydive.com/library/case-studies/">Utility Dive: Case Studies</a></p>
-            <p><a href="https://www.seia.org/initiatives/solar-case-studies">SEIA: Solar Case Studies</a></p>
-        </section>
-    
-        <section id="faqs">
-            <h2>Frequently Asked Questions</h2>
-            <p>Get answers to common questions and find additional assistance.</p>
-            <p><a href="https://www.energy.gov/eere/about-us/frequently-asked-questions">FAQs - Department of Energy</a></p>
-            <p><a href="https://www.epa.gov/faqs">FAQs - Environmental Protection Agency</a></p>
-            <p><a href="https://www.irs.gov/faqs">IRS: Frequently Asked Questions</a></p>
-        </section>
-    </div>
+<header>
+    <h1>Green Home Solutions</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="information.html">Information</a>
+    <a href="cost.html">Cost</a>
+    <a href="tax.html">Tax Rebates & Sources</a>
+</nav>
+
+<div class="container">
+
+    <!-- Table of Contents -->
+    <section class="toc">
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="#overview">Overview of Tax Rebates</a></li>
+            <li><a href="#types">Types of Tax Rebates</a></li>
+            <li><a href="#eligibility">Eligibility Criteria</a></li>
+            <li><a href="#application">Application Process</a></li>
+            <li><a href="#deadline">Deadline Information</a></li>
+            <li><a href="#case-studies">Case Studies</a></li>
+            <li><a href="#faqs">Frequently Asked Questions</a></li>
+        </ul>
+    </section>
+
+    <!-- Main Content Sections -->
+    <section id="overview">
+        <h2>Overview of Tax Rebates</h2>
+        <p>Explore federal, state, and local tax incentives for green energy practices.</p>
+        <p><a href="https://www.energy.gov/articles/clean-hydrogen-production-tax-credit-45v-resources">Clean Hydrogen Production Tax Credit Resources</a></p>
+    </section>
+
+    <section id="types">
+        <h2>Types of Tax Rebates</h2>
+        <p>Categorize and detail tax rebates based on green energy solutions.</p>
+        <p><a href="https://www.marketwatch.com/guides/solar/solar-incentives-north-carolina/#:~:text=Property%20Tax%20Abatement%20for%20Solar%20Electric%20Systems&text=North%20Carolina%20offers%20a%20100,applies%20to%20active%20solar%20installations.">North Carolina Solar Tax Credits and Rebates</a></p>
+        <p><a href="https://www.dsireusa.org/">Database of State Incentives for Renewables & Efficiency (DSIRE)</a></p>
+        <p><a href="https://www.energy.gov/savings">Energy.gov - Tax Credits, Rebates & Savings</a></p>
+    </section>
+
+    <section id="eligibility">
+        <h2>Eligibility Criteria</h2>
+        <p>Understand the criteria and conditions to qualify for tax rebates.</p>
+        <p><a href="https://www.ncgreenpower.org/impact/become-a-generator">NC GreenPower</a></p>
+        <p><a href="https://www.irs.gov/credits-deductions">IRS: Credits & Deductions for Individuals</a></p>
+        <p><a href="https://www.taxpolicycenter.org/briefing-book/what-are-tax-credits-and-how-do-they-differ-tax-deductions">Tax Policy Center: Tax Credits vs. Tax Deductions</a></p>
+    </section>
+
+    <section id="application">
+        <h2>Application Process</h2>
+        <p>Learn how to apply for tax rebates and find relevant resources.</p>
+        <p><a href="https://www.irs.gov/credits-deductions/residential-clean-energy-credit">Residential Clean Energy Credit</a></p>
+        <p><a href="https://www.energystar.gov/rebate-finder">ENERGY STAR - Rebate Finder</a></p>
+        <p><a href="https://www.eere.energy.gov/buildings/energy-tax-deductions-and-energy-tax-credits">Energy.gov - Energy Tax Deductions and Credits</a></p>
+    </section>
+
+    <section id="deadline">
+        <h2>Deadline Information</h2>
+        <p>Be aware of deadlines and the importance of timely submissions.</p>
+        <p><a href="https://www.irs.gov/businesses/small-businesses-self-employed/irs-tax-calendar-for-businesses-and-self-employed">IRS: Tax Deadlines for Businesses</a></p>
+        <p><a href="https://www.irs.gov/forms-pubs/about-publication-509">IRS Publication 509: Tax Calendars</a></p>
+        <p><a href="https://www.sba.gov/business-guide/launch-your-business/manage-your-business-finances/tax-deadlines">SBA.gov: Tax Deadlines</a></p>
+    </section>
+
+    <section id="case-studies">
+        <h2>Case Studies</h2>
+        <p>Read success stories of individuals and businesses benefiting from tax rebates.</p>
+        <p><a href="https://www.energy.gov/eere/success-stories">Case Studies in Energy Efficiency</a></p>
+        <p><a href="https://www.utilitydive.com/library/case-studies/">Utility Dive: Case Studies</a></p>
+        <p><a href="https://www.seia.org/initiatives/solar-case-studies">SEIA: Solar Case Studies</a></p>
+    </section>
 
     <section id="faqs">
-        <h2>Reference</h2>
-        <p>Crediting studies used on this website with the addition of Student
-            Copyright Checklist & Plan of
-            Work log</p>
-        <p><a href="https://drive.google.com/file/d/1Uhz7LZunyT5x6xGwMLYnN1umFTg4A7-w/view?usp=sharing">Plan of Work Log</a></p>
-        <p><a href="https://drive.google.com/file/d/1NYX-jeTuGiO8Eni6N6b3SQBlhzZOLxdP/view?usp=sharing">Copyright Checklist</a></p>
-        <p><a href="https://www.nationalgrid.com/stories/energy-explained/what-are-different-types-renewable-energy#:~:text=Renewable%20energy%20is%20energy%20that,and%20hydroelectric%2C%20including%20tidal%20energy.">nationalgrid- Energy Explained</a></p>
-        <p><a href="file:///C:/Users/howar/Downloads/student-copyright-checklist%20(1).pdf">United Nation - Green Energy</a></p>
+        <h2>Frequently Asked Questions</h2>
+        <p>Get answers to common questions and find additional assistance.</p>
+        <p><a href="https://www.energy.gov/eere/about-us/frequently-asked-questions">FAQs - Department of Energy</a></p>
+        <p><a href="https://www.epa.gov/faqs">FAQs - Environmental Protection Agency</a></p>
+        <p><a href="https://www.irs.gov/faqs">IRS: Frequently Asked Questions</a></p>
     </section>
 </div>
-    
-    <footer>
-        <div class="footer-content">
-          <p>Copyright © 2024 Team 4240 All rights reserved.</p>
-          <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
-          <p>Contact@4240co</p>
-        </div>
-      </footer>
+
+<section id="faqs">
+    <h2>Reference</h2>
+    <p>Crediting studies used on this website with the addition of Student
+        Copyright Checklist & Plan of
+        Work log</p>
+    <p><a href="https://drive.google.com/file/d/1Uhz7LZunyT5x6xGwMLYnN1umFTg4A7-w/view?usp=sharing">Plan of Work Log</a></p>
+    <p><a href="https://drive.google.com/file/d/1NYX-jeTuGiO8Eni6N6b3SQBlhzZOLxdP/view?usp=sharing">Copyright Checklist</a></p>
+    <p><a href="https://www.nationalgrid.com/stories/energy-explained/what-are-different-types-renewable-energy#:~:text=Renewable%20energy%20is%20energy%20that,and%20hydroelectric%2C%20including%20tidal%20energy.">nationalgrid- Energy Explained</a></p>
+    <p><a href="file:///C:/Users/howar/Downloads/student-copyright-checklist%20(1).pdf">United Nation - Green Energy</a></p>
+</section>
+</div>
+
+</div>
+
+<footer>
+    <div class="footer-content">
+        <p>Copyright © 2024 Team 4240 All rights reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        <p>Contact@4240co</p>
+    </div>
+</footer>
 
 </body>
 </html>
-
-        
-
-        
