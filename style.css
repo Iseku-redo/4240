@@ -187,13 +187,7 @@ footer {
         align-items: normal;}
     
     
-    img {
-        max-width: 50%; /* Ensure the image doesn't exceed its container */
-        height: 50%; /* Automatically adjust height based on width */
-        border-radius: 50px; /* Optional: Add border-radius for a rounded look */
-        margin-left: 5% ; /* Add margin to separate the image from text */
-        margin-right: 5%;
-    }
+  
 
     body {
         font-family: Arial, sans-serif;
