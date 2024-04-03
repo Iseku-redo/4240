@@ -156,6 +156,7 @@ max-height: 300px; /* Adjust the maximum height as needed */
 }
 /*END OF (Hover styles for drop boxes on information.html)*/
 
+/*START OF (Footer Styles)*/
 footer {
     background-color: #ffffff;
     padding: 20px 0;
@@ -168,7 +169,7 @@ footer {
   }
   
   .footer-content p {
-    margin: 5px 0;
+    margin: 5px ;
     font-size: 14px;
   }
   
@@ -192,52 +193,4 @@ footer {
     body {
         font-family: Arial, sans-serif;
     }
-
-    .toc-container {
-        display: flex;
-        align-items: flex-start;
-        height: 100vh;
-    }
-
-    .toc {
-        width: 200px; /* Set your desired width for the sidebar */
-        background-color: #f4f4f4;
-        padding: 10px;
-        position: sticky;
-        top: 0;
-        overflow-y: auto;
-    }
-
-    .toc ul {
-        list-style-type: none;
-        padding: 0;
-    }
-
-    .toc li {
-        margin-bottom: 10px;
-    }
-
-    .toc a {
-        text-decoration: none;
-        color: #333;
-    }
-
-    .toc a.active {
-        color: #0066cc; /* Active link color */
-        font-weight: bold;
-    }
-
-    .active-arrow {
-        position: absolute;
-        width: 10px; /* Set arrow width */
-        height: 10px; /* Set arrow height */
-        background-color: #0066cc; /* Arrow color */
-        top: 0;
-        left: 200px; /* Adjust based on sidebar width */
-        transform: translateY(-50%);
-        display: none;
-    }
-
-    .active-arrow.active {
-        display: block;
-    }
+    /*END OF (Footer Styles)*/
