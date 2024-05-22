@@ -2,7 +2,7 @@
 
 /* START OF (For the base color of text,nav, and header) */
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f8f8f8;
@@ -10,6 +10,7 @@ body {
 }
 
 header {
+    font-family: Verdana, Geneva, sans-serif;
     background-color: #4CAF50;
     color: white;
     padding: 1em;
@@ -76,6 +77,7 @@ p {
 }
 
 h1, h2, h3{
+    font-family: Verdana, Geneva, sans-serif;
     opacity: 0; /* Initially set opacity to 0 for fade-in effect */
     transform: translateY(20px); /* Initially move elements down for slide-up effect */
     transition: opacity 0.5s ease, transform 0.5s ease;
@@ -100,10 +102,12 @@ h1, h2, h3 {
 /* START OF (Spacing of drop boxes on information.html)*/
 
 .faq-answer ul {
+    font-family: Verdana, Geneva, sans-serif;
     list-style-type: none; /* Remove default list styling */
     padding: 0; /* Remove default padding */
 }
 .faq-answer li {
+    font-family: Verdana, Geneva, sans-serif;
 margin-bottom: 10px; /* Add space between each bullet point */
 }   
 
@@ -113,10 +117,12 @@ margin-bottom: 10px; /* Add space between each bullet point */
 
 /*START OF (Hover styles for drop boxes on information.html)*/
 .faq-container {
+    font-family: Verdana, Geneva, sans-serif;
     max-width: 600px;
     margin: 0 auto;
 }
 .faq-question {
+    font-family: Verdana, Geneva, sans-serif;
     cursor: pointer;
     padding: 10px;
     background-color: #4CAF50;
@@ -126,6 +132,7 @@ margin-bottom: 10px; /* Add space between each bullet point */
     transition: background-color 0.3s ease, color 0.3s ease; /* Add transition for background-color and color */
 }
 .faq-answer {
+    font-family: Verdana, Geneva, sans-serif;
     display: none;
     padding: 20px;
     background-color: #ffffff;
@@ -134,13 +141,14 @@ margin-bottom: 10px; /* Add space between each bullet point */
     transition: opacity .3s ease; /* Add transition for opacity */
 }
 .faq-answer {
-max-height: 10;
-overflow: hidden;
-transition: max-height 0.3s ease-out;
-padding: 10px;
-background-color: #ffffff;
-border: 1px solid #333;
-border-radius: 5px;
+    font-family: Verdana, Geneva, sans-serif;
+    max-height: 10;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #333;
+    border-radius: 5px;
 }
 .faq-answer.open {
 max-height: 300px; /* Adjust the maximum height as needed */
@@ -158,9 +166,10 @@ max-height: 300px; /* Adjust the maximum height as needed */
 
 /*START OF (Footer Styles)*/
 footer {
-    background-color: #ffffff;
-    padding: 20px 0;
+    background-color: rgba(255, 255, 255, .9);
+    padding: 10px 0;
     text-align: center;
+    height: 100px;
   }
   
   .footer-content {
@@ -186,11 +195,4 @@ footer {
        .content-wrapper {
         display: flex;
         align-items: normal;}
-    
-    
-  
-
-    body {
-        font-family: Arial, sans-serif;
-    }
     /*END OF (Footer Styles)*/
